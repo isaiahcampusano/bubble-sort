@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Performance Ranker</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Oswald:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Bubble Sort Visualizer</p>
+        <h1>Product Performance Ranker</h1>
+      </div>
+      <p class="header-copy">
+        Adjacent products are compared one pair at a time, then swapped only
+        when the selected metric is out of order.
+      </p>
+    </header>
+
+    <main class="app-shell">
+      <section class="control-band" aria-label="Sorting controls">
+        <div class="field">
+          <label for="metric">Rank by</label>
+          <select id="metric">
+            <option value="rating">Rating</option>
+            <option value="price">Price</option>
+            <option value="discountPercentage">Discount</option>
+            <option value="stock">Stock</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="direction">Direction</label>
+          <select id="direction">
+            <option value="desc">Highest first</option>
+            <option value="asc">Lowest first</option>
+          </select>
+        </div>
+
+        <div class="field speed-field">
+          <label for="speed">Speed</label>
+          <input id="speed" type="range" min="120" max="900" step="40" value="420" />
+        </div>
+
+        <div class="button-row">
+          <button id="start" class="primary-button" type="button">Start</button>
+          <button id="step" type="button">Step</button>
+          <button id="reset" type="button">Reset</button>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Sort statistics">
+        <div>
+          <span class="stat-label">Comparisons</span>
+          <strong id="comparison-count">0</strong>
+        </div>
+        <div>
+          <span class="stat-label">Swaps</span>
+          <strong id="swap-count">0</strong>
+        </div>
+        <div>
+          <span class="stat-label">Pass</span>
+          <strong id="pass-count">1</strong>
+        </div>
+        <div>
+          <span class="stat-label">Status</span>
+          <strong id="status">Ready</strong>
+        </div>
+      </section>
+
+      <section class="visualizer-layout">
+        <div class="sort-stage" aria-label="Product sort visualization">
+          <div class="stage-header">
+            <div>
+              <p class="eyebrow">Live Order</p>
+              <h2 id="stage-title">Ranking by rating</h2>
+            </div>
+            <div class="legend" aria-label="Visualizer legend">
+              <span><i class="legend-box comparing"></i> Comparing</span>
+              <span><i class="legend-box swapping"></i> Swapping</span>
+              <span><i class="legend-box sorted"></i> Sorted</span>
+            </div>
+          </div>
+          <div id="product-track" class="product-track"></div>
+        </div>
+
+        <aside class="rank-panel" aria-label="Ranked products">
+          <div>
+            <p class="eyebrow">Current Ranking</p>
+            <h2>Product Order</h2>
+          </div>
+          <ol id="ranked-list" class="ranked-list"></ol>
+        </aside>
+      </section>
+
+      <section class="order-strip" aria-label="Original product order">
+        <p class="eyebrow">Original Order</p>
+        <div id="original-order" class="original-order"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
