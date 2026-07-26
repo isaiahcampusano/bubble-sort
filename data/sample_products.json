@@ -1,0 +1,185 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Essence Mascara Lash Princess",
+      "category": "beauty",
+      "price": 9.99,
+      "rating": 4.94,
+      "stock": 5,
+      "discountPercentage": 7.17
+    },
+    {
+      "id": 2,
+      "title": "Eyeshadow Palette with Mirror",
+      "category": "beauty",
+      "price": 19.99,
+      "rating": 3.28,
+      "stock": 44,
+      "discountPercentage": 5.5
+    },
+    {
+      "id": 3,
+      "title": "Powder Canister",
+      "category": "beauty",
+      "price": 14.99,
+      "rating": 3.82,
+      "stock": 59,
+      "discountPercentage": 18.14
+    },
+    {
+      "id": 4,
+      "title": "Red Lipstick",
+      "category": "beauty",
+      "price": 12.99,
+      "rating": 2.51,
+      "stock": 68,
+      "discountPercentage": 19.03
+    },
+    {
+      "id": 5,
+      "title": "Red Nail Polish",
+      "category": "beauty",
+      "price": 8.99,
+      "rating": 3.91,
+      "stock": 71,
+      "discountPercentage": 2.46
+    },
+    {
+      "id": 6,
+      "title": "Calvin Klein CK One",
+      "category": "fragrances",
+      "price": 49.99,
+      "rating": 4.85,
+      "stock": 17,
+      "discountPercentage": 5.67
+    },
+    {
+      "id": 7,
+      "title": "Chanel Coco Noir Eau De",
+      "category": "fragrances",
+      "price": 129.99,
+      "rating": 2.76,
+      "stock": 41,
+      "discountPercentage": 10.64
+    },
+    {
+      "id": 8,
+      "title": "Dior J'adore",
+      "category": "fragrances",
+      "price": 89.99,
+      "rating": 3.31,
+      "stock": 91,
+      "discountPercentage": 14.72
+    },
+    {
+      "id": 9,
+      "title": "Dolce Shine Eau de",
+      "category": "fragrances",
+      "price": 69.99,
+      "rating": 2.68,
+      "stock": 3,
+      "discountPercentage": 11.47
+    },
+    {
+      "id": 10,
+      "title": "Gucci Bloom Eau de",
+      "category": "fragrances",
+      "price": 79.99,
+      "rating": 2.69,
+      "stock": 93,
+      "discountPercentage": 8.9
+    },
+    {
+      "id": 11,
+      "title": "Annibale Colombo Bed",
+      "category": "furniture",
+      "price": 1899.99,
+      "rating": 4.14,
+      "stock": 47,
+      "discountPercentage": 0.29
+    },
+    {
+      "id": 12,
+      "title": "Annibale Colombo Sofa",
+      "category": "furniture",
+      "price": 2499.99,
+      "rating": 3.08,
+      "stock": 16,
+      "discountPercentage": 18.54
+    },
+    {
+      "id": 13,
+      "title": "Bedside Table African Cherry",
+      "category": "furniture",
+      "price": 299.99,
+      "rating": 4.48,
+      "stock": 16,
+      "discountPercentage": 9.58
+    },
+    {
+      "id": 14,
+      "title": "Knoll Saarinen Executive Chair",
+      "category": "furniture",
+      "price": 499.99,
+      "rating": 4.11,
+      "stock": 47,
+      "discountPercentage": 15.23
+    },
+    {
+      "id": 15,
+      "title": "Wooden Bathroom Sink",
+      "category": "furniture",
+      "price": 799.99,
+      "rating": 3.26,
+      "stock": 95,
+      "discountPercentage": 11.22
+    },
+    {
+      "id": 16,
+      "title": "Apple",
+      "category": "groceries",
+      "price": 1.99,
+      "rating": 2.96,
+      "stock": 9,
+      "discountPercentage": 1.97
+    },
+    {
+      "id": 17,
+      "title": "Beef Steak",
+      "category": "groceries",
+      "price": 12.99,
+      "rating": 2.83,
+      "stock": 96,
+      "discountPercentage": 17.99
+    },
+    {
+      "id": 18,
+      "title": "Cat Food",
+      "category": "groceries",
+      "price": 8.99,
+      "rating": 4.13,
+      "stock": 13,
+      "discountPercentage": 9.57
+    },
+    {
+      "id": 19,
+      "title": "Chicken Meat",
+      "category": "groceries",
+      "price": 9.99,
+      "rating": 4.61,
+      "stock": 69,
+      "discountPercentage": 10.46
+    },
+    {
+      "id": 20,
+      "title": "Cooking Oil",
+      "category": "groceries",
+      "price": 4.99,
+      "rating": 4.01,
+      "stock": 22,
+      "discountPercentage": 18.89
+    }
+  ]
+}
+
